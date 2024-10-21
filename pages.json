@@ -1,0 +1,471 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/taskDetail",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "跑单详情"
+			}
+		},
+		{
+			"path": "pages/index/complaint",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "投诉"
+			}
+		},
+		{
+			"path": "pages/index/selectCampus",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "校园列表"
+			}
+		},
+		
+		{
+			"path": "pages/errands/index",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "跑腿池",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/my/prestige",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的信誉",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/prestigeDetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "信誉明细",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "跑单/订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/order/runDetail",
+			"style": {
+				"navigationBarTitleText": "跑单详情"
+			}
+		},
+		// task-task
+		{
+			"path": "pages/task/search",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/task/tasklist",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "任务列表",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/task/renwu",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/task/recharge",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "充值",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "明细",
+							"fontSize": "28upx",
+							"color": "#000000",
+							"fontWeight": "bold",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/task/rechargeDetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "充值明细",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		// my-my
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/updataNickName",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "修改昵称",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/account",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/my/shareFriends",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "好友分享",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/studentEdit",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "学生认证",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/invitationUser",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "好友分享",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/wallet",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的钱包",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/ranking",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "排行榜",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/moneydetails",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "资金明细",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance":100,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+		    "path" : "pages/my/customer",
+		    "style" : {
+		       "navigationBarTextStyle": "black",
+		       "navigationBarTitleText": "联系客服",
+		       "enablePullDownRefresh": false
+		    }
+		    
+		},
+		// public-public
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarBackgroundColor": "#F7F7F7",
+				"navigationBarTitleText": "登录"
+			}
+		},
+
+		{
+			"path": "pages/public/bind",
+			"style": {
+				"navigationBarTitleText": "换绑手机号",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/public/mobile",
+			"style": {
+				"navigationBarTitleText": "绑定手机",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/public/tbmobile",
+			"style": {
+				"navigationBarTitleText": "绑定手机号",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/public/wxmobile",
+			"style": {
+				"navigationBarTitleText": "绑定手机号",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		}, {
+			"path": "pages/public/register",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		}, {
+			"path": "pages/public/pwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/member/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/forgetPwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/webview",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		// member-member
+		{
+			"path": "pages/member/checkService",
+			"style": {
+				"navigationBarTitleText": "请输入收货码"
+			}
+		},
+		{
+			"path": "pages/member/jifen",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的积分",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/member/chongzhi",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "积分兑换",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/member/cash",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "提现记录",
+							"float": "right",
+							"fontSize": "15px",
+							"fontWeight": "bold"
+						}]
+					}
+				}
+			}
+		},
+		
+		{
+			"path": "pages/member/cashList",
+			"style": {
+				"navigationBarTitleText": "提现记录"
+			}
+		},
+		{
+			"path": "pages/member/zhifubao",
+			"style": {
+				"navigationBarTitleText": "提现账号",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/xieyi",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "用户协议",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/member/mimi",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "隐私政策",
+				"enablePullDownRefresh": false
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "跑腿",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#B3B3B3",
+		"selectedColor": "#FF3530",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/home-selected.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/errands/index",
+				"iconPath": "static/img/tabbar/errands.png",
+				"selectedIconPath": "static/img/tabbar/errands-selected.png",
+				"text": "跑腿池"
+			}, {
+				"pagePath": "pages/order/index",
+				"iconPath": "static/img/tabbar/order.png",
+				"selectedIconPath": "static/img/tabbar/order-selected.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/img/tabbar/my.png",
+				"selectedIconPath": "static/img/tabbar/my-selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
